@@ -26,6 +26,7 @@ currency.then(res => {
 ```
 # Example
 ``` 
+const shadow = require("currency-exchanges")
 var currency = shadow.EUR(1)
 currency.then(res => {
   console.log(res)
